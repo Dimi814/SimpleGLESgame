@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A61CFFA917500AC6005F1A32 /* form-rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = A61CFFA817500AC6005F1A32 /* form-rabbit.png */; };
+		A635293A179E837E009F0CE2 /* RockForGame.png in Resources */ = {isa = PBXBuildFile; fileRef = A6352939179E837E009F0CE2 /* RockForGame.png */; };
 		A66FAA55173D3BD300DC481A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66FAA54173D3BD300DC481A /* UIKit.framework */; };
 		A66FAA57173D3BD300DC481A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66FAA56173D3BD300DC481A /* Foundation.framework */; };
 		A66FAA59173D3BD300DC481A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66FAA58173D3BD300DC481A /* CoreGraphics.framework */; };
@@ -18,9 +20,17 @@
 		A66FAA6B173D3BD300DC481A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66FAA6A173D3BD300DC481A /* Default-568h@2x.png */; };
 		A66FAA6E173D3BD300DC481A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66FAA6C173D3BD300DC481A /* MainStoryboard.storyboard */; };
 		A66FAA71173D3BD300DC481A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66FAA70173D3BD300DC481A /* ViewController.m */; };
+		A66FAA78173D3C2D00DC481A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66FAA77173D3C2D00DC481A /* OpenGLES.framework */; };
+		A66FAA7A173D3C3200DC481A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66FAA79173D3C3200DC481A /* GLKit.framework */; };
+		A66FAA7C173D3C4000DC481A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66FAA7B173D3C4000DC481A /* QuartzCore.framework */; };
+		A6A50884178051BE00963667 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A50883178051BE00963667 /* ball.png */; };
+		A6E86E4B1757F3EF00888888 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86E4A1757F3EF00888888 /* Sprite.m */; };
+		A6F23570177C666600043B3C /* IOSRocket.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F2356F177C666600043B3C /* IOSRocket.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A61CFFA817500AC6005F1A32 /* form-rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "form-rabbit.png"; sourceTree = "<group>"; };
+		A6352939179E837E009F0CE2 /* RockForGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RockForGame.png; sourceTree = "<group>"; };
 		A66FAA51173D3BD300DC481A /* SimpleGLESgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGLESgame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66FAA54173D3BD300DC481A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A66FAA56173D3BD300DC481A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +47,13 @@
 		A66FAA6D173D3BD300DC481A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A66FAA6F173D3BD300DC481A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A66FAA70173D3BD300DC481A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A66FAA77173D3C2D00DC481A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A66FAA79173D3C3200DC481A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A66FAA7B173D3C4000DC481A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A6A50883178051BE00963667 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		A6E86E491757F3EF00888888 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		A6E86E4A1757F3EF00888888 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		A6F2356F177C666600043B3C /* IOSRocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IOSRocket.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66FAA7C173D3C4000DC481A /* QuartzCore.framework in Frameworks */,
+				A66FAA7A173D3C3200DC481A /* GLKit.framework in Frameworks */,
+				A66FAA78173D3C2D00DC481A /* OpenGLES.framework in Frameworks */,
 				A66FAA55173D3BD300DC481A /* UIKit.framework in Frameworks */,
 				A66FAA57173D3BD300DC481A /* Foundation.framework in Frameworks */,
 				A66FAA59173D3BD300DC481A /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +76,7 @@
 		A66FAA48173D3BD300DC481A = {
 			isa = PBXGroup;
 			children = (
+				A6E86E481757F3D000888888 /* Rescources */,
 				A66FAA5A173D3BD300DC481A /* SimpleGLESgame */,
 				A66FAA53173D3BD300DC481A /* Frameworks */,
 				A66FAA52173D3BD300DC481A /* Products */,
@@ -73,6 +94,9 @@
 		A66FAA53173D3BD300DC481A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A66FAA7B173D3C4000DC481A /* QuartzCore.framework */,
+				A66FAA79173D3C3200DC481A /* GLKit.framework */,
+				A66FAA77173D3C2D00DC481A /* OpenGLES.framework */,
 				A66FAA54173D3BD300DC481A /* UIKit.framework */,
 				A66FAA56173D3BD300DC481A /* Foundation.framework */,
 				A66FAA58173D3BD300DC481A /* CoreGraphics.framework */,
@@ -88,6 +112,8 @@
 				A66FAA6C173D3BD300DC481A /* MainStoryboard.storyboard */,
 				A66FAA6F173D3BD300DC481A /* ViewController.h */,
 				A66FAA70173D3BD300DC481A /* ViewController.m */,
+				A6E86E491757F3EF00888888 /* Sprite.h */,
+				A6E86E4A1757F3EF00888888 /* Sprite.m */,
 				A66FAA5B173D3BD300DC481A /* Supporting Files */,
 			);
 			path = SimpleGLESgame;
@@ -105,6 +131,17 @@
 				A66FAA6A173D3BD300DC481A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6E86E481757F3D000888888 /* Rescources */ = {
+			isa = PBXGroup;
+			children = (
+				A6A50883178051BE00963667 /* ball.png */,
+				A6F2356F177C666600043B3C /* IOSRocket.png */,
+				A61CFFA817500AC6005F1A32 /* form-rabbit.png */,
+				A6352939179E837E009F0CE2 /* RockForGame.png */,
+			);
+			name = Rescources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +200,10 @@
 				A66FAA69173D3BD300DC481A /* Default@2x.png in Resources */,
 				A66FAA6B173D3BD300DC481A /* Default-568h@2x.png in Resources */,
 				A66FAA6E173D3BD300DC481A /* MainStoryboard.storyboard in Resources */,
+				A61CFFA917500AC6005F1A32 /* form-rabbit.png in Resources */,
+				A6F23570177C666600043B3C /* IOSRocket.png in Resources */,
+				A6A50884178051BE00963667 /* ball.png in Resources */,
+				A635293A179E837E009F0CE2 /* RockForGame.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +217,7 @@
 				A66FAA61173D3BD300DC481A /* main.m in Sources */,
 				A66FAA65173D3BD300DC481A /* AppDelegate.m in Sources */,
 				A66FAA71173D3BD300DC481A /* ViewController.m in Sources */,
+				A6E86E4B1757F3EF00888888 /* Sprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +340,7 @@
 				A66FAA76173D3BD300DC481A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
